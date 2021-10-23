@@ -1,0 +1,79 @@
+body {
+    background-color: #2f3136;
+    font-family: 'Poppins', sans-serif;
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+    color: #5865F2;
+    margin: 0%;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
+.wrapper {
+    display: flex;
+    height: 95vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar {
+    display: flex;
+    background-color: #202225;
+    width: 100vw;
+    height: 5vh;
+    justify-content: right;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+    max-width: 48rem;
+    padding: 2rem;
+    /*
+    border: 1px solid #202225;
+    box-shadow: 3px 3px 10px #202225; 
+    */
+}
+
+.invite {
+    width: 16rem;
+    height: 2rem;
+    background-color: transparent;
+    border: .1rem solid #5865F2;
+    border-radius: 1rem;
+    color: #5865F2;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    margin-top: 1rem;
+}
+
+.invite:hover {
+    background-color: #5865F2;
+    color: white;
+    width: 20rem;
+    box-shadow: 3px 3px 10px #202225;
+}
+
+.dashboard {
+    width: 12rem;
+    height: 2rem;
+    background-color: transparent;
+    border: .1rem solid #57F287;
+    border-radius: 1rem;
+    color: #57F287;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    margin-right: 2rem;
+}
+
+.dashboard:hover {
+    background-color: #57F287;
+    color: black;
+    box-shadow: 3px 3px 10px #202225;
+}
