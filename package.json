@@ -1,0 +1,22 @@
+{
+  "name": "web-dash",
+  "version": "1.0.0",
+  "description": "Web Dashboard for Discord Bots",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robin5605/web-dash.git"
+  },
+  "author": "Coder Crafter and Robin5605",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robin5605/web-dash/issues"
+  },
+  "homepage": "https://github.com/Robin5605/web-dash#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.8"
+  }
+}
