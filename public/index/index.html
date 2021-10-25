@@ -5,21 +5,32 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>TBot</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/index/style.css'>
-    <script src='/index/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="topbar">
-        <button class="dashboard">Dashboard</button>
+        <div class="btn-group">
+            <!-- 
+                This part is styled so that you can add as many
+                <button> as you want, and the CSS will take care
+                of styling the outer elements properly
+            -->
+            <button>Commands</button>
+            <button>something</button>
+            <button>something else</button>
+            <button>Dashboard</button>
+        </div>
+        
     </div>
     <div class="wrapper">
         <div class="main">
             <h1>TBot</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget mi proin sed libero enim sed. Lobortis elementum nibh tellus molestie nunc non blandit. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin</p>
-            <button class="invite">Invite</button>
+            <a href="#" class="invite">Invite</a>
         </div>
     </div>
 </body>
